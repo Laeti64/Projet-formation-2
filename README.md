@@ -1,28 +1,17 @@
 ## Concept
+This project was about creating a music website, calling an existing API (wildify - created by our teacher) using react, javascript, tailwind.
+We worked with agile method with a kanban board and daily points each morning.
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
+Challenges:
+  
+  - the player had to keep playing while the user change pages
+  - the player had to load the correct tracklist according to the music selected by the user
+  - work on local storage to save the recently played musics and favorites music
+  - group all the API calls
+  - the drag and drop to upload musics and update the tracklists
+  
+  ![image](https://user-images.githubusercontent.com/105073078/206470285-5429c7bc-4f9c-4c38-814c-aede3c69fe08.png)
 
-## Setup & Use
-
-### Project Initialization
-
-- In VSCode, install plugins **Prettier - Code formatter** and **ESLint** and configure them
-- Clone this repo, enter it
-- Run command `npm run setup`
-- _NB: To launch the backend server, you'll need an environment file with database credentials. You'll find a template one in `backend/.env.sample`_
-
-### Available Commands
-
-- `setup` : Initialization of frontend and backend, as well as all toolings
-- `migrate` : Run the database migration script
-- `dev` : Starts both servers (frontend + backend) in one terminal
-- `dev-front` : Starts the React frontend server
-- `dev-back` : Starts the Express backend server
-- `lint` : Runs validation tools, and refuses unclean code (will be executed on every _commit_)
-- `fix` : Fixes linter errors (run it if `lint` growls on your code !)
-
-## FAQ
 
 ### Tools
 
