@@ -13,6 +13,8 @@ Challenges:
   ![image](https://user-images.githubusercontent.com/105073078/206470285-5429c7bc-4f9c-4c38-814c-aede3c69fe08.png)
 
 
+Attention: necessité d'avoir le token api pour accéder à toutes les features
+
 ### Tools
 
 - _Concurrently_ : Allows for several commands to run concurrently in the same CLI
